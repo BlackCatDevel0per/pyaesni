@@ -9,6 +9,8 @@ installation
 If you want to install it yourself then you’re going to need a yasm and cmake v. 3.14.7 or higher
 compilers. you can get it from here
 https://yasm.tortall.net/Download.html
+::
+    sudo apt install cmake yasm
 
 You can also download it from pip if a wheel is available for your
 device.
