@@ -16,6 +16,11 @@ device.
 
     pip install pyaesni
 
+Or run
+::
+    git clone https://github.com/BlackCatDevel0per/pyaesni/
+    cd pyaesni
+    python setup.py install
 Usage
 -----
 
