@@ -81,7 +81,7 @@ class CMakeBuild(build_ext):
 
 
 setup(
-    name="pyaesni",
+    name="pyaesni-bin",
     version="0.16",
     ext_modules=[
         CMakeExtension(cmake_target="pyaesni",
@@ -95,7 +95,7 @@ setup(
     long_description=open('README.rst').read().strip(),
     author='Painor',
     author_email='pi.oussama@gmail.com',
-    url='https://github.com/painor/pyaesni',
+    url='https://github.com/BlackCatDevel0per/pyaesni',
     license='MIT License',
     keywords='aesni encryption crypto decryption ige',
     classifiers=[
@@ -107,6 +107,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
     python_requires='>=3.6',
 

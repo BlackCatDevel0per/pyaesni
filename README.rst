@@ -6,15 +6,15 @@ a cpython bindings to libaesni which is a binding to intel aes ni.
 installation
 ------------
 
-If you want to install it yourself then you’re going to need a yasm
-compiler. you can get it from here
+If you want to install it yourself then you’re going to need a yasm and cmake v. 3.14.7 or higher
+compilers. you can get it from here
 https://yasm.tortall.net/Download.html
 
 You can also download it from pip if a wheel is available for your
 device.
 ::
 
-    pip install pyaesni
+    pip install pyaesni-bin
 
 Usage
 -----
