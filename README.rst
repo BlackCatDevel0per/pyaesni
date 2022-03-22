@@ -20,7 +20,7 @@ Or run
 ::
     git clone https://github.com/BlackCatDevel0per/pyaesni/
     cd pyaesni
-    python setup.py installi
+    python setup.py install
 Or from pip
 ::
     # python 3.10
