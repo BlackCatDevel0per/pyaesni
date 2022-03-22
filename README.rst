@@ -20,7 +20,13 @@ Or run
 ::
     git clone https://github.com/BlackCatDevel0per/pyaesni/
     cd pyaesni
-    python setup.py install
+    python setup.py installi
+Or from pip
+::
+    # python 3.10
+    pip install https://github.com/BlackCatDevel0per/pyaesni/releases/download/pyaesni-0.16/pyaesni-0.16-cp310-cp310-linux_x86_64.whl
+    # python 3.7
+    pip install https://github.com/BlackCatDevel0per/pyaesni/releases/download/pyaesni-0.16/pyaesni-0.16-cp37-cp37m-linux_x86_64.whl
 Usage
 -----
 
