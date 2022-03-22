@@ -14,7 +14,7 @@ You can also download it from pip if a wheel is available for your
 device.
 ::
 
-    pip install pyaesni-bin
+    pip install pyaesni
 
 Usage
 -----
