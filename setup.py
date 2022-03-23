@@ -48,7 +48,7 @@ class CMakeBuild(build_ext):
             linux_options = []
             if sys.platform != "win32":
                 linux_options = ['-DPython_INCLUDE_DIR={}'.format(get_python_inc()),
-                                 '-DPython_LIBRARY={}'.format(os.path.join(sysconfig.get_config_var('LIBDIR'),
+                                 '-DPython_LIBRARY={}'.format(os.path.join(sysconfig.get_config_var('LIBPL'),
                                                                            sysconfig.get_config_var('LDLIBRARY')))]
 
             subprocess.check_call(['cmake',
